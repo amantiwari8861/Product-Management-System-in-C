@@ -6,11 +6,9 @@
 #define ANSI_COLOR_BLUE    "\x1b[34m"
 #define ANSI_COLOR_MAGENTA "\x1b[35m"
 #define ANSI_COLOR_CYAN    "\x1b[36m"
-#define ANSI_BGCOLOR_RED    "\x1b[41m"
+#define ANSI_BGCOLOR_RED   "\x1b[41m"
 
-#define ANSI_COLOR_RED     "\x1b[41m"
-
-int main (int argc, char const *argv[]) {
+int main () {
 
   printf(ANSI_COLOR_RED    "This text is RED!"     ANSI_COLOR_RESET "\n");
   printf(ANSI_COLOR_GREEN   "This text is GREEN!"   ANSI_COLOR_RESET "\n");
