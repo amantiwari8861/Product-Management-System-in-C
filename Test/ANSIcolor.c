@@ -7,9 +7,11 @@
 #define ANSI_COLOR_MAGENTA "\x1b[35m"
 #define ANSI_COLOR_CYAN    "\x1b[36m"
 #define ANSI_BGCOLOR_RED   "\x1b[41m"
+#define ANSI_BGCOLOR_GREEN   "\x1b[42m"
 
-int main () {
-
+int main () 
+{
+  printf(ANSI_BGCOLOR_GREEN);
   printf(ANSI_COLOR_RED    "This text is RED!"     ANSI_COLOR_RESET "\n");
   printf(ANSI_COLOR_GREEN   "This text is GREEN!"   ANSI_COLOR_RESET "\n");
   printf(ANSI_COLOR_GREEN   "This text is GREEN!"   ANSI_COLOR_RESET "\n");
