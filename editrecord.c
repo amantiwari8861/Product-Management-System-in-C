@@ -45,3 +45,7 @@ int main(void)
 	fclose(fp);
 	return 0;
 }
+
+// SEEK_SET 0
+// SEEK_CURRENT 1
+// SEEK_END 2

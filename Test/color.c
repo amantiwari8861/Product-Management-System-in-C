@@ -11,7 +11,7 @@ int main(int argc, char ** argv){
     printf("\x1B[35mMagenta\033[0m\t\t");
     printf("\x1B[36mCyan\033[0m\t\t\n");
     printf("\x1B[37mWhite\033[0m\t\t");
-    printf("\x1B[90mBright(Gray)\033[0m\t\t");
+    printf("\x1B[90mBright(Gray)\033[0m\t\t"); 
     printf("\x1B[91mBright Red\033[0m\t\t");
     printf("\x1B[92mBright Green\033[0m\t\t");
     printf("\x1B[93mBright Yellow\033[0m\t\t");
